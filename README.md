@@ -28,5 +28,32 @@ Make sure:
 ```
 
     [sudo] npm install -g trimp3
+    
+
+```
+
+## Usage
+
+Schema:
+
+```
+    trimp3  $mp3In  $mp3Out  $beginTime  [$endTime]
+    
+```
+
+Please note:
+End time is optional.
+If you don't provide an end time, end will not be trimmed.
+
+## Time formats supported
+
+```
+
+  00       - seconds
+  00:00    - minutes and seconds
+  00:00:00 - hours, minutes and seconds
+
+  EXAMPLE:  trimp3  in.mp3  out.mp3  01:35       7:58:55
+  EXAMPLE:  trimp3  in.mp3  out.mp3  20:31       05:40
 
 ```
