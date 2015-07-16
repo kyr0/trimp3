@@ -200,7 +200,7 @@ var libtrimp3 = {
 
             // let begin crop cmd use temp. output
             cmds.push(
-                'env ffmpeg -t ' + times.endTime + ' ' +
+                'ffmpeg -t ' + times.endTime + ' ' +
                 '-i "' + inFile + '" -acodec copy "' + 'tmp_' + outFile + '"'
             );
 
@@ -213,7 +213,7 @@ var libtrimp3 = {
 
         if (times.beginTime > 0) {
             cmds.push(
-                'env ffmpeg -ss ' + times.beginTime + ' ' +
+                'ffmpeg -ss ' + times.beginTime + ' ' +
                 '-i "' + inFile + '" -acodec copy "' + outFile + '"'
             );
         }
