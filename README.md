@@ -19,7 +19,7 @@ This is useful to cut away audio content which shouldn't be part of an audio fil
 ## Prerequisites
 
 Make sure:
-- node.js is installed (>= 0.8.*)
+- node.js is installed (>= 0.10.*)
 - npm is installed
 - ffmpeg binary is installed 
 
