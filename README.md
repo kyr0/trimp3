@@ -12,9 +12,13 @@ Example:
 
 ```
 
-The output.mp3 file will contain audio from [00h 00m 22s - 00h 03m 00s] of the input.mp3.
+The output.mp3 file will contain audio from [22s - 3m 0s] of the input.mp3.
 This is useful to cut away audio content which shouldn't be part of an audio file.
 
+## High speed, no loss in quality
+
+This program triggers the ffmpeg tools to *NOT* decode and encode the mp3 files
+while copying the audio data from input.mp3 to output.mp3.
 
 ## Prerequisites
 
