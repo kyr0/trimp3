@@ -1,20 +1,20 @@
 {
   "name": "trimp3",
   "releaseYear": 2015,
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "trimp3 - A simple cli app to trim single mp3 files",
   "author": "Aron Homberg <info@aron-homberg.de>",
-  "homepage":"http://www.aron-homberg.de",
   "keywords": [
-    "http"
+    "mp3", "trim", "ffmpeg", "node", "cli", "performance", "quality"
   ],
+  "homepage": "https://github.com/kyr0/trimp3",
   "bin": {
     "trimp3": "trimp3.js"
   },
   "dependencies": {
   },
   "main": "trimp3",
-  "license" : "MIT",
+  "license" : "BSD",
   "engines": {
     "node": "= 0.10.*"
   },
